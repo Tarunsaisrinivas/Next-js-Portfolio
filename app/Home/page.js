@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";

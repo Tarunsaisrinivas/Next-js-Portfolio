@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect } from "react";
 import { CiShare1 } from "react-icons/ci";
 import { FaDownload,FaGithub } from "react-icons/fa";
