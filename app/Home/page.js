@@ -11,7 +11,7 @@ import { message } from "antd";
 
 const defaultOptions = {
   reverse: false, // reverse the tilt direction
-  max: 80, // max tilt rotation (degrees)
+  max: 90, // max tilt rotation (degrees)
   perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
   scale: 1.1, // 2 = 200%, 1.5 = 150%, etc..
   speed: 1000, // Speed of the enter/exit transition
@@ -119,7 +119,7 @@ const Home = ({ darkMode }) => {
             <img
               src="/assets/Cartoon-Avatar-On-Circle-Background-removebg-preview.png"
               alt=""
-              className="m-auto cursor-pointer rounded-full w-44 md:w-64 lg:w-80"
+              className="m-auto cursor-pointer overflow-x-hidden rounded-full w-40 md:w-64 lg:w-80"
             />
           </Tilt>
         </div>

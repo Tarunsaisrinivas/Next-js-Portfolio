@@ -13,7 +13,7 @@ const Page = () => {
     <>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Home darkMode={darkMode} />
-      {/* Ensure to pass darkMode to other components if necessary */}
+     
       <Skills darkMode={darkMode} />
       <Projects darkMode={darkMode} />
       <Contact darkMode={darkMode} />
