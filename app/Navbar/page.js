@@ -54,7 +54,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               duration={500}
               className={`dark:text-gray-800 dark:font-bold cursor-pointer text-white hover:text-gray-300 ${
                 activeLink === "home"
-                  ? "transition-all  border-yellow-600 border-b-2"
+                  ? "transition-all ease-out duration-150 border-yellow-600 border-b-2"
                   : ""
               }`}
               to="home"

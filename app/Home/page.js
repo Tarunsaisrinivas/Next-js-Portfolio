@@ -111,6 +111,7 @@ const Home = ({ darkMode }) => {
               className="flex items-center justify-center px-4 py-2 transition duration-300 bg-gray-700 border-4 border-gray-800 dark:text-gray-800 dark:bg-[#edf2f4] rounded-2xl dark:hover:bg-blue-400 hover:bg-blue-400 hover:text-black"
               icon={<IoIosMail size={30} />}
             />
+             
           </div>
         </div>
         {/* Image */}

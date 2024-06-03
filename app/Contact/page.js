@@ -2,8 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { message } from "antd";
 
 function Contact({darkMode}) {
+    const [messageApi, contextHolder] = message.useMessage();
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
@@ -25,7 +27,7 @@ function Contact({darkMode}) {
             });
             const result = await response.json();
             if (result.success) {
-                alert('Message submitted successfully!');
+                messageApi.success("Submitted Successful!");
                 setFormData({ name: '', email: '', message: '' });
             } else {
                 alert('Error submitting message');
@@ -38,6 +40,7 @@ function Contact({darkMode}) {
 
     return (
         <div id='contact' className={`flex items-center justify-center min-h-screen bg-gray-800 ${darkMode ? " bg-white":"bg-gray-800"}`}>
+            {contextHolder}
             <div className="w-5/6 p-8 mx-auto bg-gray-700 rounded-lg shadow-lg" data-aos="fade-down">
                 <h1 className="mb-4 text-3xl font-semibold text-center text-white">Contact</h1>
                 <form onSubmit={handleSubmit} autoComplete='off' className="space-y-4">
