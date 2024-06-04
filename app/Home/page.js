@@ -93,26 +93,29 @@ const Home = ({ darkMode }) => {
             Native Expo.
           </p>
           {/* Buttons */}
-          <div className="flex flex-row space-y-0 md:flex-row md:space-y-0 md:space-x-4">
-            <Button
-              link="https://github.com/Tarunsaisrinivas"
-              icon={<FaGithub size={30} />}
-            />
-            <Button
-              link="https://www.linkedin.com/in/tarun-sai-srinivas"
-              icon={<FaLinkedin size={30} />}
-            />
-            <Button
-              link="https://drive.google.com/file/d/1_pdq2FAQH6O5cXMxaCpOnU3VeZd9mCb0/view?usp=sharing"
-              icon={<FaFileAlt size={30} />}
-            />
-            <Button
-              onClick={handleCopy}
-              className="flex items-center justify-center px-4 py-2 transition duration-300 bg-gray-700 border-4 border-gray-800 dark:text-gray-800 dark:bg-[#edf2f4] rounded-2xl dark:hover:bg-blue-400 hover:bg-blue-400 hover:text-black"
-              icon={<IoIosMail size={30} />}
-            />
-             
-          </div>
+          <div className="flex flex-row space-x-4">
+  <Button
+    link="https://github.com/Tarunsaisrinivas"
+    icon={<FaGithub size={30} />}
+    className="border-none md:border-4 md:border-gray-800"
+  />
+  <Button
+    link="https://www.linkedin.com/in/tarun-sai-srinivas"
+    icon={<FaLinkedin size={30} />}
+    className="border-none md:border-4 md:border-gray-800"
+  />
+  <Button
+    link="https://drive.google.com/file/d/1_pdq2FAQH6O5cXMxaCpOnU3VeZd9mCb0/view?usp=sharing"
+    icon={<FaFileAlt size={30} />}
+    className="border-none md:border-4 md:border-gray-800"
+  />
+  <Button
+    onClick={handleCopy}
+    className="flex items-center justify-center px-4 py-2 transition duration-300 bg-gray-700 dark:text-gray-800 dark:bg-[#edf2f4] rounded-2xl dark:hover:bg-blue-400 hover:bg-blue-400 hover:text-black border-none md:border-4 md:border-gray-800"
+    icon={<IoIosMail size={30} />}
+  />
+</div>
+
         </div>
         {/* Image */}
         <div className="mt-8 md:mt-0 md:w-1/2" data-aos="fade-left">
