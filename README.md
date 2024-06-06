@@ -1,6 +1,6 @@
 Live on : https://tarunsaisrinivas.vercel.app
 
-PREVIEW:
+PREVIEW: <br>
 <img src = "./Preview.png" height="500" />
 
 STEPS TO RUN :
