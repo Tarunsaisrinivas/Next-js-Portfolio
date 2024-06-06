@@ -1,4 +1,5 @@
 Website Preview
 https://tarunsaisrinivas.vercel.app
 
-STEPS TO Run
+STEPS TO RUN :
+1. git clone 
