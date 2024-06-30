@@ -7,6 +7,8 @@ import Contact from "./Contact/page";
 import Navbar from "./Navbar/page";
 import { FloatButton } from 'antd';
 import Loading from './Loading/page';
+import ProgressBar from "react-scroll-progress-bar"; //Add this line to import the component
+
 
 const Page = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -27,12 +29,14 @@ const Page = () => {
 
   return (
     <>
+    <ProgressBar height="2" bgcolor="#3a86ff" duration="0.1"/>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Home darkMode={darkMode} />
       <Skills darkMode={darkMode} />
       <Projects darkMode={darkMode} />
       <Contact darkMode={darkMode} />
       <FloatButton.BackTop className={`border-none md:border-4 md:border-gray-800 ${darkMode ? "bg-blue-300" : ""}`} />
+
     </>
   );
 };

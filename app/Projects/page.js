@@ -30,7 +30,7 @@ const Projects = ({darkMode}) => {
             <h2 className="mb-4 text-xl font-semibold text-white">
               Department Website
             </h2>
-            <p className="mb-4 text-sm text-white">
+            <p className="mb-4 text-sm text-white text-justify">
               I've initiated a web-based leave application system tailored for
               college students to request holidays from the department head.
               Users can input details, and the system generates a leave letter.
@@ -63,7 +63,7 @@ const Projects = ({darkMode}) => {
           />
           <div className="flex flex-col justify-center w-2/3 p-4">
             <h2 className="mb-4 text-xl font-semibold text-white">Chat App</h2>
-            <p className="mb-4 text-sm text-white">
+            <p className="mb-4 text-sm text-white text-justify">
               The Firebase Chat Application is a real-time messaging platform
               that allows users to engage in group conversations and manage
               their messages efficiently. Built on Firebase, a powerful platform
@@ -99,7 +99,7 @@ const Projects = ({darkMode}) => {
             <h2 className="mb-4 text-xl font-semibold text-white">
               Recipe App
             </h2>
-            <p className="mb-4 text-sm text-white">
+            <p className="mb-4 text-sm text-white text-justify">
               Discover a world of culinary delights with our <b>React Native</b>{" "}
               recipe app! Explore a vast collection of recipes, each with
               ingredients, instructions, and mouth-watering images. Easily find
@@ -134,7 +134,7 @@ const Projects = ({darkMode}) => {
             <h2 className="mb-4 text-xl font-semibold text-white">
               Eazy Letter
             </h2>
-            <p className="mb-4 text-sm text-white">
+            <p className="mb-4 text-sm text-white text-justify">
               Our team has created a dynamic letter generator using full-stack
               technology, tailored to aid students in effortlessly composing
               letters for various purposes. With customizable templates and

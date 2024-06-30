@@ -75,7 +75,7 @@ const Home = ({ darkMode }) => {
             />
           </div>
           <p
-            className={`mb-8 text-lg leading-relaxed text-left ${
+            className={`mb-8 text-lg leading-relaxed text-justify ${
               darkMode ? "text-gray-800" : ""
             }`}
           >
